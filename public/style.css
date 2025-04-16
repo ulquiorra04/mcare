@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+}
+body {
+    background-color: #F8FAFC;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #02A499;
+    border-radius: 6px;
+    border: none;
+    padding: 20px 30px;
+    height: calc(100% - 15px);
+}
+
+#logo {
+    margin-bottom: 30px;
+}
+
+#sidebar_menu {}
+#sidebar_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+#sidebar_menu a i {
+    margin-right: 10px;
+}
+
+#content {
+    width: calc(100% - 300px);
+}
+
+.action-add {
+    background-color: #E0F6FF;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.action-add i {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.action-add span {
+    font-size: .6rem;
+    text-align: start;
+}
+.action-add div {
+    font-size: 1.3rem;
+    color: #39B5E8;
+}
+
+.emergency-room {
+    background-color: #E5F3FF;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.emergency-room i {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+.emergency-room span {
+    font-size: .6rem;
+    text-align: start;
+}
+.emergency-room div {
+    font-size: 1.3rem;
+    color: #0071D1;
+}
+
+.health-info {
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.health-info .health-info-icon {
+    font-size: 1.4rem;
+    margin-right: 15px;
+    background-color: #E1FFFD;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.health-info .health-info-text span {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #4F4F4F;
+}
+.health-info .health-info-text div {
+    font-size: .9rem;
+    color: #787878;
+    text-transform: capitalize;
+}
+
+.doctor-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
